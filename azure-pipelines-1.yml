@@ -67,8 +67,8 @@ stages:
               appName: $(webAppName)
               package: '$(Pipeline.Workspace)/drop/**/target/*.?(war|jar)'
 
-- stage: Deploy-prod
-  displayName: Deploy Prod
+- stage: Deployprod
+  displayName: DeployProd
   dependsOn: Build
   condition: succeeded()
   jobs:
