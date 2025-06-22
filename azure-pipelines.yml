@@ -9,13 +9,13 @@ trigger:
 variables:
 
   # Azure Resource Manager connection created during pipeline creation
-  azureSubscription: 'ce77491f-ab18-460c-88a0-bbeaefef8143'
+  azureSubscription: '71114d4d-f492-4644-a495-c88d5bcd6db4'
 
   # Web app name
-  webAppName: 'azuretedtado'
+  webAppName: 'az'
 
   # Environment name
-  environmentName: 'azuretedtado'
+  environmentName: 'az'
 
   # Agent VM image name
   vmImageName: 'ubuntu-latest'
